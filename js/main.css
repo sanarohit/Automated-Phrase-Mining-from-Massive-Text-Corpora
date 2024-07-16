@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#FFFFFF;
+}
+
+#wrapper{
+width:908px;
+margin:auto;
+position:relative;
+}
+
+#header{
+height:252px;
+width:100%;
+}
+
+#lang {
+	position:absolute;
+	left:204px;
+	top:20px;
+	width:123px;
+	height:21px;
+	z-index:1;
+}
+
+
+#menu_td{
+background-image:url(../graphics/menu_td_bg.jpg);
+background-repeat:repeat-y;
+}
+
+#menu{
+width:183px;
+background-image:url(../graphics/menu_bg.jpg);
+background-repeat:repeat-y;
+margin:0 0 0 50px;
+}
+
+/************navigation styling**************/
+#menu ul{
+list-style-type:none;
+margin:0 0 0 15px;
+padding:10px 0 10px 0;
+text-align:left;
+
+}
+#menu ul li{
+padding:5px 2px 5px 2px;
+border-bottom:#FFFFFF 1px solid;
+width:90%;
+}
+
+#menu ul li a,#menu ul li a:active,#menu ul li a:visited{
+font-size:15px;
+color:#0e2958;
+text-decoration:none;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+padding:2px 0 2px 3px;
+display:block;
+}
+#menu ul li a:hover{
+background-color:#a6bb3d;
+}
+/************navigation styling**************/
+
+
+#content{
+width:100%;
+background-color:#FFFFFF;
+}
+
+#edit_content{
+width:643px;
+background-image:url(../graphics/watermark.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:scroll;
+background-color:#FFFFFF;
+padding:20px 10px 10px 10px;
+margin:0 0 0 0px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#151804;
+text-align:justify;
+min-height:500px;
+}
+
+#edit_content a,#edit_content a:active,#edit_content a:visited{
+color:#6f85ab;
+text-decoration:none;
+}
+
+#edit_content a:hover{
+text-decoration:underline;
+}
+
+
+#footer{
+text-align:right;
+padding:5px 20px 5px 0;
+border-right:#000000 thin solid;	
+border-left:#000000 thin solid;
+background-color:#0d1d43;
+color:#FFFFFF;
+}
+
+#footer a,#footer a:active,#footer a:visited{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+#footer a:hover{
+text-decoration:underline;
+}
+
+
+#page_title{
+font:Arial, Helvetica, sans-serif;
+font-size:16px;
+color:#0e2958;
+width:400px;
+border-bottom:#0e2958 2px solid;
+margin:0 0 10px 0;
+font-weight:bold;
+}
+
+#back{
+position:absolute;
+top:730px;
+text-align:center;
+width:68%;
+}
+
+
+#why{
+list-style-position:inside;
+}
+
+#why li{
+list-style:url("../graphics/arrow.jpg"); 
+margin:0;
+padding:0 0 6px 0;}
+
+.news_title{
+font:Arial, Helvetica, sans-serif;
+font-size:13px;
+color:#0e2958;
+font-weight:bold;}
+
+img{
+border:0;
+}
+
+#banner{}

@@ -1,0 +1,82 @@
+ <style type="text/css">
+.tab{
+font-family: arial, verdana, san-serif;
+font-size: 14px;
+}
+.asd
+{
+text-decoration: none;
+font-family: arial, verdana, san-serif;
+font-size: 13px;
+color:#4234ff;
+}
+
+/*****remove the list style****/
+#nav {
+margin:0;
+padding:0;
+list-style:none;
+}
+
+/*****LI display inline *****/
+#nav li {
+float:left;
+display:block;
+width:100px;
+background:#b0c4de;
+position:relative;
+z-index:500;
+margin:0 1px;
+}
+
+/*****parent menu*****/
+#nav li a {
+display:block;
+padding:8px 5px 0 5px;
+font-weight:700;
+height:23px;
+text-decoration:none;
+color:#ffffff;
+text-align:center;
+color:#ffeecc;
+}
+
+#nav li a:hover
+{
+color:#470020;
+}
+
+/* style for default selected value */ #nav a.selected {
+color:#4234ff;
+}
+/* submenu */ #nav ul
+{
+position:absolute;
+left:0;
+display:none;
+margin:0 0 0 -1px;
+padding:0;
+list-style:none;
+}
+
+#nav ul li
+{
+width:100px;
+float:left;
+border-top:1px solid #fff;
+}
+
+/* display block will make the link fill the whole area of LI */ #nav ul a
+{
+display:block;
+height:15px;
+padding: 8px 5px;
+color:#ff7777
+}
+
+#nav ul a:hover
+{
+text-decoration:underline;
+padding-left:15px;
+}
+</style>

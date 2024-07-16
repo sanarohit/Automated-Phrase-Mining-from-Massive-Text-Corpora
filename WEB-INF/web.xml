@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <servlet-class>com.automated.dbutility.InstantiationServlet</servlet-class> 
+       
+    <init-param>
+       <param-name>config</param-name>
+       <param-value>/WEB-INF/config/system.properties</param-value>
+    </init-param>    
+    <load-on-startup>0</load-on-startup>    
+  </servlet>     
+  
+	
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>com.automated.action.RegistrationServlet</servlet-class>    
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.automated.action.LoginServlet</servlet-class>
+  </servlet>
+ 
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewuserprofileservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewuserprofileservlet</servlet-class>
+  </servlet>
+ 
+ 
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangepasswordServlet</servlet-name>
+    <servlet-class>com.automated.action.ChangepasswordServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewadminprofileservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewadminprofileservlet</servlet-class>
+  </servlet>  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Adminchangepasswordservlet</servlet-name>
+    <servlet-class>com.automated.action.Adminchangepasswordservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewuserrequestservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewuserrequestservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Requestacceptservlet</servlet-name>
+    <servlet-class>com.automated.action.Requestacceptservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewalluserservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewalluserservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Addcandidateservlet</servlet-name>
+    <servlet-class>com.automated.action.Addcandidateservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewcandidatedetailsservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewcandidatedetailsservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchforcandidateservlet</servlet-name>
+    <servlet-class>com.automated.action.Searchforcandidateservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchmyhistoryservlet</servlet-name>
+    <servlet-class>com.automated.action.Searchmyhistoryservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Phraseminingservlet</servlet-name>
+    <servlet-class>com.automated.action.Phraseminingservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewphraseminingdetailsservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewphraseminingdetailsservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchtransactionservlet</servlet-name>
+    <servlet-class>com.automated.action.Searchtransactionservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Autophraseminingservlet</servlet-name>
+    <servlet-class>com.automated.action.Autophraseminingservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewautophraseminingservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewautophraseminingservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Viewcandidatedataservlet</servlet-name>
+    <servlet-class>com.automated.action.Viewcandidatedataservlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  <servlet-mapping>
+    <servlet-name>InstantiationServlet</servlet-name>
+    <url-pattern>/instantiationservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Viewuserprofileservlet</servlet-name>
+    <url-pattern>/Viewuserprofileservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>ChangepasswordServlet</servlet-name>
+    <url-pattern>/ChangepasswordServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Viewadminprofileservlet</servlet-name>
+    <url-pattern>/Viewadminprofileservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Adminchangepasswordservlet</servlet-name>
+    <url-pattern>/Adminchangepasswordservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewuserrequestservlet</servlet-name>
+    <url-pattern>/Viewuserrequestservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Requestacceptservlet</servlet-name>
+    <url-pattern>/Requestacceptservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewalluserservlet</servlet-name>
+    <url-pattern>/Viewalluserservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addcandidateservlet</servlet-name>
+    <url-pattern>/Addcandidateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewcandidatedetailsservlet</servlet-name>
+    <url-pattern>/Viewcandidatedetailsservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchforcandidateservlet</servlet-name>
+    <url-pattern>/Searchforcandidateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchmyhistoryservlet</servlet-name>
+    <url-pattern>/Searchmyhistoryservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Phraseminingservlet</servlet-name>
+    <url-pattern>/Phraseminingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewphraseminingdetailsservlet</servlet-name>
+    <url-pattern>/Viewphraseminingdetailsservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchtransactionservlet</servlet-name>
+    <url-pattern>/Searchtransactionservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Autophraseminingservlet</servlet-name>
+    <url-pattern>/Autophraseminingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewautophraseminingservlet</servlet-name>
+    <url-pattern>/Viewautophraseminingservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Viewcandidatedataservlet</servlet-name>
+    <url-pattern>/Viewcandidatedataservlet</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>
