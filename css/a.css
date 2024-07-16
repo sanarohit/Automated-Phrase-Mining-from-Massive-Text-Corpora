@@ -1,0 +1,96 @@
+@CHARSET "ISO-8859-1";
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: url(../images/back1.png);
+}
+p{
+
+}
+.box_msg{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #394027;
+ width: 900px; 
+ height: 49px;
+ display: inline-block;
+ background: url(../images/hd1.png);
+}
+.ribben {
+	
+  display: inline-block;  
+  border-radius: 4px;
+  position: absolute;
+  font-size:20px;
+
+}
+.signup {
+  background: #fff; 
+  position: relative;
+  border: 1px solid #E7E4E4;
+  box-shadow: 1px 0px 3px #E7E8E4;
+}
+span.dot { 
+  width: 10px;
+  height: 16px;
+  display: inline-block;
+  color: red;
+}
+		.input_text {
+  background: url(ban.png);
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;  
+  border: 1px solid;
+  border-style: ridge;
+  box-shadow: 0px 0px 1px #6D6A6A;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+}
+.input_password{
+background-image: url("ban.png");
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  border: 1px solid;
+  border-style: ridge;
+  box-shadow: 0px 0px 1px #6D6A6A;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+}
+
+.submit{
+  color: #FFF;
+  letter-spacing: 0.5px;
+  border:none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align:center;  
+  cursor: pointer;
+  outline: none; 
+ background-color:#000088;
+  width: 200px;
+  height: 30px;
+    border: 1px solid;
+  border-style: ridge;
+  box-shadow: 0px 0px 1px #000088;
+  display: inline-block;
+  
+}
+		.input_a {
+  background: url(ban.png);
+  outline: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;  
+  border: 1px solid;
+  border-style: ridge;
+  box-shadow: 0px 0px 1px #6D6A6A;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+}

@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+table {
+   font-family: arial, sans-serif;
+   border-collapse: collapse;
+   width: 60%;
+    padding:25px;
+        
+    
+}
+
+td, th {
+height:40px;
+   border: 1px solid #99004d;
+   text-align: center;
+   padding:25px;
+   color: black;
+}
+
+tr:nth-child(even) {
+   background-color: #55FF33;
+}
